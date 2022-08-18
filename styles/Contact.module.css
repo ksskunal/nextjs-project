@@ -1,0 +1,50 @@
+.mainContainer{
+    display: flex;
+    padding: 12px 7px;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.rightContainer{
+    flex: 1;
+    padding: 100px;
+
+}
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1px;
+ }
+ .featureHeading{
+    text-align: center;
+    letter-spacing: 1.4px;
+    color: green;
+ }
+.leftContainer{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 14px;
+    padding: 50px 70px;
+    background-color: whitesmoke;
+    border: 5px;
+    margin-bottom: 60px;
+}
+.textfiled{
+    width: 100%;
+}
+.mybtn{
+    padding: 6px;
+    width: 100px;
+}
+.common1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+}

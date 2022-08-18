@@ -1,0 +1,41 @@
+.container{
+ 
+   display: flex;
+   position: relative;
+   padding: 30px 0px;
+   
+}
+.card{
+   border-radius: 12px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 24px;
+   gap: 20px;
+   
+}
+.cardItem{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex: 1;
+   flex-direction: column;
+   background-color: whitesmoke;
+   padding: 30px 40px;
+   border-radius: 7px;
+   gap: 15px;
+
+}
+.feature{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 5px;
+}
+.featureHeading{
+   text-align: center;
+   letter-spacing: 1.4px;
+   color: green;
+}
